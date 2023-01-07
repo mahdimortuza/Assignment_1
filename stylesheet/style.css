@@ -113,7 +113,7 @@ header{
 .advice-section{
     background: linear-gradient(to left, rgba(226, 157, 7, 0.10), rgba(192, 42, 12, 0.79)), url(../images/watch.png);
     background-repeat: no-repeat;
-    margin: 80px 190px 0px;
+    margin: 80px 200px 0px;
     padding: 20px 0 40px 40px;
    }
 
@@ -129,5 +129,63 @@ header{
     border: none;
     color: orangered;
     margin-top: 20px;
+    background: #fff;
+}
+
+/* Footer section */
+
+.footer-section{
+    background-color: #000;
+    color: #fff;
+    padding: 50px 200px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con-txt{
+    margin-top: 10px;
+}
+
+.mail{
+    margin-top: 15px;
+}
+
+.num{
+    margin-top: 10px;
+}
+
+.social{
+    margin-top: 30px;
+}
+
+.social > a > img{
+    margin-right: 20px;
+}
+
+/* Subscribe section */
+.sub-txt{
+    font-weight: 600;
+}
+
+input[type="email"]{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 100%;
+    color: #fff;
+    background: #000;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: orangered;
     background: #fff;
 }
