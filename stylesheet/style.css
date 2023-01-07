@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    
+   font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    height: 300vh;
+    padding: 0 200px;
+}
+.header-content{
+    float: right;
+    width: 400px;
+    text-align: right;
+}
+
+.main-title{
+   margin-top: 150px;
+   font-weight: 800;
+}
+
+.main-paragraph{
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.primary-btn{
+    margin-top: 20px;
+    padding: 8px 10px;
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+}
