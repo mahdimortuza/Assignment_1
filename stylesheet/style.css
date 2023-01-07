@@ -12,8 +12,9 @@ body{
 header{
     background: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
-    height: 300vh;
+    height: 100vh;
     padding: 0 200px;
+    background-position: center;
 }
 .header-content{
     float: right;
@@ -39,4 +40,40 @@ header{
     border: none;
     border-radius: 3px;
     font-weight: 500;
+}
+
+.failure-section{
+    display: flex;
+    padding: 80px 250px;
+}
+
+.failure-section > img{
+    height: 450px;
+    width: auto;
+}
+
+.failure-txt{
+    width: 400px;
+    margin-left: 200px;
+}
+
+.failure-head{
+    margin-top: 100px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.failure-p{
+    margin: 30px 30px 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.checked{
+    list-style-type: none;
+}
+
+.fa-check{
+    color: lightgreen;
+    font-size: 20px;
 }
