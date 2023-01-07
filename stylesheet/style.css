@@ -77,3 +77,35 @@ header{
     color: lightgreen;
     font-size: 20px;
 }
+
+/* This is plan section */
+
+.plan-section{
+    padding: 0 200px;
+}
+
+.plan-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.plan-item{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.item > img{
+    display: block;
+    margin: 0 auto;
+}
+
+.item-name{
+    margin-top: 15px;
+}
+
+.item-p{
+    margin-top: 5px;
+}
